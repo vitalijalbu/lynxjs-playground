@@ -1,0 +1,134 @@
+/*
+ * MotorMarket themes, defined as peers of the built-in LUNA themes: every LUNA
+ * semantic token is redefined, plus the marketplace extras used by the
+ * Tailwind brand preset (accent, status colours, favourite, rating star).
+ *
+ * Palette mirrors the web app (www/app/assets/css/main.css): deep forest
+ * brand surfaces, bright lime CTA accent, warm green-tinted neutrals.
+ */
+
+.mm-light {
+  --canvas: #f4f5f2;
+  --canvas-ambient: #edefeb;
+  --paper: #ffffff;
+  --paper-clear: #ffffff;
+  --paper-veil: rgba(255, 255, 255, 0.72);
+  --paper-film: rgba(255, 255, 255, 0.16);
+  --backdrop: rgba(14, 15, 12, 0.4);
+  --backdrop-subtle: rgba(14, 15, 12, 0.12);
+  --backdrop-heavy: rgba(14, 15, 12, 0.64);
+
+  --content: #0e0f0c;
+  --content-2: #454745;
+  --content-muted: #6a6c6a;
+  --content-subtle: #868685;
+  --content-faint: #c4cfc0;
+  --content-faded: rgba(14, 15, 12, 0.6);
+
+  --primary: #163300;
+  --primary-2: #2a4a13;
+  --primary-muted: #c2ebab;
+  --primary-content: #ffffff;
+  --primary-content-faded: rgba(255, 255, 255, 0.6);
+
+  --secondary: #e2f6d5;
+  --secondary-2: #d3f2c0;
+  --secondary-content: #054d28;
+  --secondary-content-faded: rgba(5, 77, 40, 0.4);
+
+  --neutral: #0e0f0c;
+  --neutral-2: #21231d;
+  --neutral-subtle: #c4cfc0;
+  --neutral-faint: #e1e5de;
+  --neutral-ambient: #edefeb;
+  --neutral-veil: rgba(14, 15, 12, 0.24);
+  --neutral-film: rgba(14, 15, 12, 0.05);
+  --neutral-content: #f6f7f5;
+  --neutral-content-faded: rgba(246, 247, 245, 0.4);
+
+  --line: #e2e2e1;
+  --rule: #edefeb;
+
+  --gradient-a: #163300;
+  --gradient-b: #2a4a13;
+  --gradient-c: #3d681e;
+  --gradient-d: #9fe870;
+  --gradient-content: #ffffff;
+  --gradient-content-faded: rgba(255, 255, 255, 0.68);
+  --gradient-content-trace: rgba(255, 255, 255, 0.12);
+
+  --accent: #9fe870;
+  --accent-content: #163300;
+  --accent-surface: #e6fbd8;
+  --success: #054d28;
+  --success-surface: #e2f6d5;
+  --danger: #cb272f;
+  --danger-surface: #fbeaea;
+  --warning: #4a3b1c;
+  --warning-surface: #fff7d7;
+  --favorite: #e5484d;
+  --star: #f5a524;
+}
+
+.mm-dark {
+  --canvas: #0e0f0c;
+  --canvas-ambient: #121511;
+  --paper: #1a1c18;
+  --paper-clear: #21231d;
+  --paper-veil: rgba(26, 28, 24, 0.72);
+  --paper-film: rgba(26, 28, 24, 0.16);
+  --backdrop: rgba(0, 0, 0, 0.5);
+  --backdrop-subtle: rgba(0, 0, 0, 0.2);
+  --backdrop-heavy: rgba(0, 0, 0, 0.72);
+
+  --content: #f6f7f5;
+  --content-2: #e1e5de;
+  --content-muted: #a3a6a1;
+  --content-subtle: #868685;
+  --content-faint: #454745;
+  --content-faded: rgba(246, 247, 245, 0.6);
+
+  --primary: #9fe870;
+  --primary-2: #b5ef91;
+  --primary-muted: #2a4a13;
+  --primary-content: #163300;
+  --primary-content-faded: rgba(22, 51, 0, 0.6);
+
+  --secondary: #2a4a13;
+  --secondary-2: #3d681e;
+  --secondary-content: #cdf5b4;
+  --secondary-content-faded: rgba(205, 245, 180, 0.4);
+
+  --neutral: #f6f7f5;
+  --neutral-2: #e1e5de;
+  --neutral-subtle: #525251;
+  --neutral-faint: #2f322c;
+  --neutral-ambient: #21231d;
+  --neutral-veil: rgba(246, 247, 245, 0.24);
+  --neutral-film: rgba(246, 247, 245, 0.06);
+  --neutral-content: #0e0f0c;
+  --neutral-content-faded: rgba(14, 15, 12, 0.4);
+
+  --line: rgba(246, 247, 245, 0.12);
+  --rule: #2a2c27;
+
+  --gradient-a: #0e2200;
+  --gradient-b: #163300;
+  --gradient-c: #2a4a13;
+  --gradient-d: #9fe870;
+  --gradient-content: #ffffff;
+  --gradient-content-faded: rgba(255, 255, 255, 0.68);
+  --gradient-content-trace: rgba(255, 255, 255, 0.12);
+
+  --accent: #9fe870;
+  --accent-content: #163300;
+  --accent-surface: #1f3510;
+  --success: #9fe870;
+  --success-surface: #1f3510;
+  --danger: #ff6b6b;
+  --danger-surface: #3a1416;
+  --warning: #ffd11a;
+  --warning-surface: #3a3010;
+  --favorite: #ff5c61;
+  --star: #f5b941;
+}

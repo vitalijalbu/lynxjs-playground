@@ -1,10 +1,14 @@
 declare module '@lynx-js/types' {
-  // eslint-disable-next-line @typescript-eslint/no-empty-object-type
   interface GlobalProps {
-    /**
-     * Define your global properties in this interface.
-     * These types will be accessible through `lynx.__globalProps`.
-     */
+    /** `dark` switches to the `.mm-dark` theme. Injected by the host. */
+    appTheme?: 'light' | 'dark';
+    /** Initial UI language. Injected by the host. */
+    locale?: 'ro' | 'ru';
+    /** Safe-area insets in px. LynxExplorer does not inject them: see lib/device. */
+    safeAreaTop?: number;
+    safeAreaBottom?: number;
+    screenWidth?: number;
+    screenHeight?: number;
   }
 }
 

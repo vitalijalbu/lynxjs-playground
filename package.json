@@ -11,21 +11,31 @@
     "test": "rstest run"
   },
   "dependencies": {
-    "@lynx-js/react": "^0.126.2"
+    "@lynx-js/lynx-ui": "^3.139.0",
+    "@lynx-js/react": "^0.126.2",
+    "@tanstack/react-query": "^5.104.1",
+    "@tanstack/react-router": "^1.170.41",
+    "@tanstack/react-store": "^0.11.2",
+    "url-search-params-polyfill": "^8.2.5"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.11",
+    "@lynx-js/luna-styles": "^0.2.2",
+    "@lynx-js/luna-tailwind": "^0.2.2",
     "@lynx-js/preact-devtools": "^5.0.1-20260827072047-5f77e12",
     "@lynx-js/qrcode-rsbuild-plugin": "^0.7.3",
     "@lynx-js/react-rsbuild-plugin": "^0.20.3",
     "@lynx-js/rspeedy": "^0.18.0",
+    "@lynx-js/tailwind-preset": "^0.6.0",
     "@lynx-js/types": "^4.1.0",
     "@rsbuild/plugin-type-check": "^1.6.0",
     "@rstest/core": "^0.12.1",
+    "@tanstack/router-plugin": "^1.168.42",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^7.0.0",
     "@types/react": "^19.2.18",
     "jsdom": "^27.4.0",
+    "tailwindcss": "^3.4.19",
     "typescript": "^6.0.3"
   },
   "engines": {
